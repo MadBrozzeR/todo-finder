@@ -1,0 +1,32 @@
+{
+  "name": "todo-finder",
+  "version": "1.0.0",
+  "description": "Search TODO tags in your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "find-todos": "./bin/todo-find.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadBrozzeR/todo-finder.git"
+  },
+  "keywords": [
+    "todo",
+    "search",
+    "find"
+  ],
+  "author": "MadBrozzeR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadBrozzeR/todo-finder/issues"
+  },
+  "homepage": "https://github.com/MadBrozzeR/todo-finder#readme",
+  "dependencies": {
+    "mbr-proc": "^1.0.0",
+    "mbr-test": "^1.1.2",
+    "recoursive": "^1.0.0"
+  }
+}

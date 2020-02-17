@@ -1,6 +1,6 @@
 {
   "name": "todo-finder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Search TODO tags in your project",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,9 @@
   "homepage": "https://github.com/MadBrozzeR/todo-finder#readme",
   "dependencies": {
     "mbr-proc": "^1.0.0",
-    "mbr-test": "^1.1.2",
     "recoursive": "^1.0.0"
+  },
+  "devDependencies": {
+    "mbr-test": "^1.1.2"
   }
 }
